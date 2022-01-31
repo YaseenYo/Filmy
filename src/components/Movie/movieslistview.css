@@ -1,0 +1,15 @@
+.movieslistview_chart {
+    padding-left:0;
+    margin-top:40px;
+    width:300px;
+}
+
+.movieslistview_container {
+    width: 1000px;
+}
+
+@media screen and (max-width : 1300px) {
+    .movieslistview_chart {
+        display:none;
+    }
+}

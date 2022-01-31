@@ -1,0 +1,34 @@
+.moviedetail_card {
+    width : 1110px !important;
+    margin-left : 17rem !important;
+    margin-top : 60px !important;
+}
+
+.moviedetail_img {
+    margin-bottom: 0 !important;
+}
+
+.moviedetail_cardtop {
+    background : #3674c1 !important;
+    color : white !important;
+}
+
+.moviedetail_detail{
+    margin-left: 10px;
+    width : 300px;
+}
+
+@media screen and (max-width : 560px) {
+    .moviedetail_card {
+        margin-left: 10px !important;
+        width: 93% !important;
+    }
+
+    .moviedetail_img {
+        margin-bottom: 10px !important;
+    }
+
+    .moviedetail_detail{
+        margin-left: 0px;
+    }
+}

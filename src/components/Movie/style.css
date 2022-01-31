@@ -1,0 +1,32 @@
+.fixed_header{
+    table-layout : fixed;
+    border-collapse:separate;
+    width: 570px !important;
+}
+
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 200px;
+}
+
+.fixed_header thead tr {
+  display: block;
+}
+
+.fixed_header th{
+  text-align: left;
+  width: 110px;
+}
+
+.fixed_header td {
+    text-align: left;
+    width: 110px;
+  }
+
+@media screen and (max-width : 768px) {
+  .fixed_header{
+    width: 100% !important;
+  }
+}
